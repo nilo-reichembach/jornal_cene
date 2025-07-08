@@ -40,7 +40,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px; /* Aumentando o tamanho da fonte */
-  transition: 10s ease; /* Efeito de transição suave ao passar o mouse */
+  transition: ease-in-out all 0.5s; /* Efeito de transição suave ao passar o mouse */
 }
 
 nav ul li a:hover {
