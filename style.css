@@ -45,16 +45,23 @@ nav ul li a {
 
 
 .menu {
-  display: inline-block;
-  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #333;
+}
+
+.botao{
+  padding: 12px 24px;
   background-color: #3498db;
   color: white;
-  border-radius: 8px;
-  cursor: pointer;
+  text-decoration: none;
+  border-radius: 6px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.menu:hover {
+.botao:hover {
   background-color: #2980b9;
   transform: scale(1.05);
 }
