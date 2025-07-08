@@ -40,12 +40,23 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   font-size: 22px; /* Aumentando o tamanho da fonte */
-  transition: ease-in-out all 0.5s; /* Efeito de transição suave ao passar o mouse */
 }
 
-nav ul li a:hover {
-  margin: 0 26px;
-  font-size: 23px;
+
+
+.menu {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
 }
 
 main {
