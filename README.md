@@ -2,7 +2,6 @@
 
 noticias:
 olimpiadas matific cene
-entrevista do gremio
 saeb
 redacao
 
@@ -13,9 +12,14 @@ eventos:
 eventos do cene
 workshop do ideias
 
-cultura/escola/educação:
+cultura:
 cultura geek
 literario
-curiosidades cene
-entrevista com uma das primeiras alunas
+
+opniao:
 editorial
+
+curiosidades:
+entrevista do gremio
+entrevista com uma das primeiras alunas
+curiosidades cene
