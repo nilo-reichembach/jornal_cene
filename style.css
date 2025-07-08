@@ -17,6 +17,30 @@ header {
   margin: auto;
 }
 
+nav {
+  background-color: #579eb8; /* Cor igual ao header */
+  padding: 15px 0; /* Aumentando o espaçamento superior e inferior */
+  text-align: center; /* Centralizar o conteúdo */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 25px; /* Aumentando o espaço entre os itens do menu */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px; /* Aumentando o tamanho da fonte */
+}
 
 .menu {
   display: flex;
