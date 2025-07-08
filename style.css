@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 50 px;
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #333;
@@ -15,12 +15,21 @@ header {
   padding: 20px;
   text-align: center;
   margin: auto;
+    z-index: 2;
+
 }
 
-nav {
+.previsao {
+  position: relative;
+  z-index: 2; /* Faz com que fique acima do menu lateral */
+  margin: 20px;
+}
+
+.menu {
   background-color: #579eb8; /* Cor igual ao header */
   padding: 15px 0; /* Aumentando o espaçamento superior e inferior */
   text-align: center; /* Centralizar o conteúdo */
+  z-index: 2;
 }
 
 nav ul {
@@ -64,7 +73,39 @@ nav ul li a {
   transform: scale(1.05);
 }
 
-main {
+.menu-lateral {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-lateral a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.menu-lateral a:hover {
+  background-color: #575757;
+}
+
+.conteudo {
+  margin-left: 220px; /* espaço para o menu lateral */
+  padding: 20px;
+    z-index: 2;
+}
+
+
+
+
+/*main {
   padding: 20px;
   max-width: 98%;
   margin: 0 auto;
@@ -92,3 +133,4 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+*/
