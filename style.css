@@ -127,12 +127,18 @@ main {
 
 .texto-noticia h2 {
   margin-top: 0;
-  font-size: 28px;
+  font-size: 30px;
+  color: #333;
+}
+
+.texto-noticia h3 {
+  margin-top: 0;
+  font-size: 24px;
   color: #333;
 }
 
 .texto-noticia p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   color: #555;
 }
