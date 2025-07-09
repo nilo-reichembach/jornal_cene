@@ -19,11 +19,6 @@ header {
 
 }
 
-h2 {
-  font-size: 60px
-}
-
-
 .menu {
   background-color: #579eb8; /* Cor igual ao header */
   padding: 15px 0; /* Aumentando o espaçamento superior e inferior */
@@ -114,6 +109,14 @@ main {
   margin-bottom: 30px;
 }
 
+main h2 {
+  font-size: 62px; 
+}
+
+main h3 {
+  font-size: 30px;
+}
+
 .galeriamatific img {
   width: 300px;
   height: auto;
@@ -125,20 +128,8 @@ main {
   flex: 1;
 }
 
-.texto-noticia h2 {
-  margin-top: 0;
-  font-size: 30px;
-  color: #333;
-}
-
-.texto-noticia h3 {
-  margin-top: 0;
-  font-size: 24px;
-  color: #333;
-}
-
 .texto-noticia p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.6;
   color: #555;
 }
