@@ -23,11 +23,6 @@ h2 {
   font-size: 60px
 }
 
-.previsao {
-  position: relative;
-  z-index: 2; /* Faz com que fique acima do menu lateral */
-  margin: 20px;
-}
 
 .menu {
   background-color: #579eb8; /* Cor igual ao header */
