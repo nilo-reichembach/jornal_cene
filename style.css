@@ -17,7 +17,10 @@ header {
   margin: auto;
   z-index: 2;
   font-family: 'Times New Roman'
+}
 
+u {
+  color: white;
 }
 
 .menu {
