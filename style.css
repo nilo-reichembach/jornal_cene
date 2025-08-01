@@ -80,6 +80,11 @@ nav ul li a {
 }
 
 .menu-lateral a {
+  margin-top: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 10px;
+  font-size: 18px;
   color: white;
   padding: 15px 20px;
   text-decoration: none;
@@ -89,7 +94,7 @@ nav ul li a {
 }
 
 .menu-lateral a:hover {
-  background-color: #536569;
+  background-color: #555;
 }
 
 .conteudo {
@@ -131,9 +136,8 @@ main h3 {
   text-align: justify;
 }
 
-.texto-noticia h2 {
-
-
+.texto-noticia h4 {
+  font-size: 24px;
 }
 
 .texto-noticia p {
