@@ -23,12 +23,6 @@ u {
   color: white;
 }
 
-.menu {
-  background-color: #579eb8; /* Cor igual ao header */
-  padding: 15px 0; /* Aumentando o espaçamento superior e inferior */
-  text-align: center; /* Centralizar o conteúdo */
-  z-index: 2;
-}
 
 nav ul {
   list-style: none;
@@ -52,6 +46,8 @@ nav ul li a {
 .menu {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-left: 250px;
   gap: 20px;
   padding: 20px;
   background-color: #226096;
@@ -75,7 +71,7 @@ nav ul li a {
   position: fixed;
   left: 0;
   top: 0;
-  width: 200px;
+  width: 250px;
   height: 100%;
   background-color: #536569;
   padding-top: 700px;
@@ -88,10 +84,12 @@ nav ul li a {
   padding: 15px 20px;
   text-decoration: none;
   transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-lateral a:hover {
-  background-color: #575757;
+  background-color: #536569;
 }
 
 .conteudo {
@@ -131,6 +129,11 @@ main h3 {
 .texto-noticia {
   flex: 1;
   text-align: justify;
+}
+
+.texto-noticia h2 {
+
+
 }
 
 .texto-noticia p {
