@@ -127,8 +127,8 @@ main h3 {
 .galeriamatific img {
   width: 300px;
   height: auto;
-  border-radius: 8px;
-  margin-right: 40px;
+  border-radius: 12px;
+  margin-right: 60px;
 }
 
 .texto-noticia {
