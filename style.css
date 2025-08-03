@@ -74,7 +74,7 @@ nav ul li a {
   width: 250px;
   height: 100%;
   background-color: #536569;
-  padding-top: 700px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -95,6 +95,10 @@ nav ul li a {
 
 .menu-lateral a:hover {
   background-color: #555;
+}
+
+.logo {
+  padding-bottom: 500px;
 }
 
 .conteudo {
