@@ -96,13 +96,14 @@ nav ul li a {
   color: white;
   padding: 15px 20px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   display: flex;
   justify-content: center;
 }
 
 .menu-lateral a:hover {
-  background-color: #555;
+  background-color: #6b7d81;
+  transform: scale(1.035);
 }
 
 .logo {
