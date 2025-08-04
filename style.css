@@ -186,6 +186,11 @@ main h3 {
   margin-right: 60px;
 }
 
+.galeria-redacao {
+  width: 450px;
+  height: 500px;
+}
+
 .texto-noticia {
   flex: 1;
   text-align: justify;
