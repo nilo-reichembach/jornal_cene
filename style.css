@@ -100,7 +100,11 @@ nav ul li a {
 
 .logo {
   padding-bottom: 460px;
+  width: 200px;
+  height: 200px;
+  margin: 25px auto;
 }
+
 
 .conteudo {
   margin-left: 220px; /* espaço para o menu lateral */
