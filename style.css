@@ -10,10 +10,17 @@ header h1 {
   margin-left: 210px;
 }
 
+header img {
+  width: 800px;
+  height: 200px;
+  margin-left: 250px;
+}
+
 header {
   background-color: #6E7D80;
   color: white;
-  padding: 40px;
+  padding: 10px;
+  padding-top: 20px;
   text-align: center;
   margin: auto;
   z-index: 2;
