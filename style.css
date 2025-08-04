@@ -115,6 +115,14 @@ nav ul li a {
   margin: 25px auto;
 }
 
+.LogoSaeb {
+  display: flex;
+  margin: auto;
+  padding-right: 100px;
+  width: 400px;
+  height: 400px;
+}
+
 
 .conteudo {
   margin-left: 220px; /* espaço para o menu lateral */
