@@ -3,6 +3,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #333;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header h1 {
@@ -96,13 +98,14 @@ nav ul li a {
   color: white;
   padding: 15px 20px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   display: flex;
   justify-content: center;
 }
 
 .menu-lateral a:hover {
-  background-color: #555;
+  background-color: #6b7d81;
+  transform: scale(1.035);
 }
 
 .logo {
@@ -130,6 +133,7 @@ main {
   border-radius: 8px;
   border-left: 5px;
   margin-bottom: 10px;
+  flex-grow: 1;
 }
 
 .manchetes {
@@ -143,6 +147,7 @@ main {
   border-left: 5px;
   padding-left: 60px;
   padding-right: 60px;
+  flex-grow: 1;
 }
 
 .manchete {
