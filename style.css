@@ -200,6 +200,14 @@ main h3 {
  margin: 40px;
 }
 
+.LogoADM {
+  display: flex;
+  margin: auto;
+  padding-right: 250px;
+  width: 250px;
+  height: 250px;
+}
+
 .texto-noticia p {
   font-size: 20px;
   line-height: 1.6;
