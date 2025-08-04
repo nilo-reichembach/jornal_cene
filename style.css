@@ -189,6 +189,8 @@ main h3 {
 .galeria-redacao {
   width: 50%;
   height: 50%;
+  display: flex;
+  margin: auto;
 }
 
 .texto-noticia {
