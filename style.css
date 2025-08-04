@@ -193,6 +193,10 @@ main h3 {
   font-size: 24px;
 }
 
+.texto-noticia img {
+ margin: 40px;
+}
+
 .texto-noticia p {
   font-size: 20px;
   line-height: 1.6;
