@@ -3,6 +3,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #333;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header h1 {
@@ -131,6 +133,7 @@ main {
   border-radius: 8px;
   border-left: 5px;
   margin-bottom: 10px;
+  flex-grow: 1;
 }
 
 .manchetes {
@@ -144,6 +147,7 @@ main {
   border-left: 5px;
   padding-left: 60px;
   padding-right: 60px;
+  flex-grow: 1;
 }
 
 .manchete {
