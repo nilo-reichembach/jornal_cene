@@ -193,6 +193,13 @@ main h3 {
   margin: auto;
 }
 
+.presedente_gremio {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 15px;
+  display: flex;
+  margin: auto;
+}
 
 .galeriageek {
   display: flex;
