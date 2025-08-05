@@ -201,7 +201,7 @@ main h3 {
 }
 
 .galeriageek figure {
-  width: 200px; /* largura máxima de cada imagem */
+  width: 350px; /* largura máxima de cada imagem */
   margin: 0;
   text-align: center;
 }
