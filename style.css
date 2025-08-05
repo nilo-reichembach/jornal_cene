@@ -249,6 +249,11 @@ main h3 {
   color: #555;
 }
 
+.texto-noticia b {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
 article {
   background-color: white;
   margin: auto;
