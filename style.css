@@ -166,7 +166,14 @@ main {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border-radius: 16px;
   border-left: 5px;
+  transition: transform 0.2s ease;
 }
+
+.manchete:hover {
+  transform: scale(1.008);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
 
 main h2 {
   font-size: 46px; 
