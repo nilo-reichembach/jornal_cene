@@ -226,6 +226,14 @@ main h3 {
   color: #555;
 }
 
+.primeira_aluna {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 10px;
+  background-clip: padding-box;
+}
 
 .texto-noticia {
   flex: 1;
