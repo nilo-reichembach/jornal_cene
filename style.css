@@ -145,16 +145,6 @@ main {
 
 .colunas {
   display: flex;
-  align-items: flex-start;
-  background-color: #fff;
-  padding: 60px;
-  margin: 30px auto;
-  max-width: 1100px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  border-left: 5px;
-  margin-bottom: 10px;
-  flex-grow: 1;
 }
 
 .titulocolunas {
@@ -247,7 +237,8 @@ main {
 
 
 main h2 {
-  font-size: 46px; 
+  font-size: 46px;
+  text-align: center; 
 }
 
 main h3 {
