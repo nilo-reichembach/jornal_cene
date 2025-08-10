@@ -320,7 +320,17 @@ main h3 {
   text-align: justify;
 }
 
+.texto-workshop {
+  flex: 1;
+  text-align: justify;
+}
+
 .texto-noticia h4 {
+  font-size: 24px;
+  padding-top: 42px;
+}
+
+.texto-workshop h4 {
   font-size: 24px;
   padding-top: 42px;
 }
@@ -380,4 +390,15 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
+}
+
+.workshopimg {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin-left: auto; 
+  margin-right: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
