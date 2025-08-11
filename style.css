@@ -248,6 +248,11 @@ main h3 {
   padding-bottom: 20px;
 }
 
+.colunas h3 {
+  font-size: 28px;
+  text-align: center;
+}
+
 .galeriamatific img {
   width: 300px;
   height: auto;
