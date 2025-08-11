@@ -255,6 +255,22 @@ main h3 {
   padding-bottom: 20px;
 }
 
+.colunas h6 {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.literarioimg {
+  display: flex;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  margin: auto;
+  padding: 20px;
+}
+
 .galeriamatific img {
   width: 300px;
   height: auto;
