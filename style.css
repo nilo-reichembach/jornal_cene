@@ -1,3 +1,7 @@
+html {
+  overscroll-behavior: none;
+}
+
 body {
   margin: 50 px;
   font-family: Arial, sans-serif;
@@ -8,17 +12,14 @@ body {
   display: flex;
 }
 
-header h1 {
-  font-size: 100px;
-  margin-left: 210px;
-}
-
 header img {
   width: 800px;
   height: 200px;
+  margin: auto;
 }
 
 header {
+  display: flex;
   background-color: #6E7D80;
   color: white;
   padding: 10px;
@@ -26,7 +27,6 @@ header {
   text-align: center;
   margin-left: 250px;
   z-index: 2;
-  font-family: 'Times New Roman'
 }
 
 u {
@@ -427,6 +427,7 @@ footer {
   background-color: #579eb8;
   color: white;
   text-align: center;
+  margin-left: 250px;
   padding: 15px;
   margin-top: 40px;
 }
